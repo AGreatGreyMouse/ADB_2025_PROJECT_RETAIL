@@ -1,0 +1,582 @@
+PRODUCT_ID,PRODUCT_ATTR_NAME,PRODUCT_ATTR_VALUE
+80001,AvgDemand_day,15-25
+80001,AvgDemand_week,500-1000 / Wk
+80001,CasePack,16
+80001,FillOunces,5
+80001,PalletSize,128
+80001,ProductStatusCD,ACT
+80001,ProductTypeCD,REGULAR
+80002,AvgDemand_day,15-Oct
+80002,AvgDemand_week,> 1000 / Wk
+80002,CasePack,8
+80002,FillOunces,17
+80002,PalletSize,144
+80002,ProductStatusCD,ACT
+80002,ProductTypeCD,REGULAR
+80003,AvgDemand_day,<10
+80003,AvgDemand_week,> 1000 / Wk
+80003,CasePack,16
+80003,FillOunces,5
+80003,PalletSize,128
+80003,ProductStatusCD,OBS
+80003,ProductTypeCD,REGULAR
+80004,AvgDemand_day,<10
+80004,AvgDemand_week,< 500 / Wk
+80004,CasePack,8
+80004,FillOunces,17
+80004,PalletSize,144
+80004,ProductStatusCD,OBS
+80004,ProductTypeCD,REGULAR
+80005,AvgDemand_day,15-Oct
+80005,AvgDemand_week,< 500 / Wk
+80005,CasePack,16
+80005,FillOunces,6.76
+80005,PalletSize,128
+80005,ProductStatusCD,ACT
+80005,ProductTypeCD,REGULAR
+80006,AvgDemand_day,<10
+80006,AvgDemand_week,> 1000 / Wk
+80006,CasePack,16
+80006,FillOunces,6.76
+80006,PalletSize,128
+80006,ProductStatusCD,ACT
+80006,ProductTypeCD,REGULAR
+80007,AvgDemand_day,15-Oct
+80007,AvgDemand_week,< 500 / Wk
+80007,CasePack,8
+80007,FillOunces,17
+80007,PalletSize,144
+80007,ProductStatusCD,ACT
+80007,ProductTypeCD,REGULAR
+80008,AvgDemand_day,<10
+80008,AvgDemand_week,> 1000 / Wk
+80008,CasePack,16
+80008,FillOunces,3.33
+80008,PalletSize,128
+80008,ProductStatusCD,ACT
+80008,ProductTypeCD,REGULAR
+80009,AvgDemand_day,<10
+80009,AvgDemand_week,< 500 / Wk
+80009,CasePack,16
+80009,FillOunces,5
+80009,PalletSize,128
+80009,ProductStatusCD,NEW
+80009,ProductTypeCD,REGULAR
+80010,AvgDemand_day,15-25
+80010,AvgDemand_week,< 500 / Wk
+80010,CasePack,8
+80010,FillOunces,17
+80010,PalletSize,144
+80010,ProductStatusCD,ACT
+80010,ProductTypeCD,REGULAR
+80011,AvgDemand_day,<10
+80011,AvgDemand_week,> 1000 / Wk
+80011,CasePack,16
+80011,FillOunces,5
+80011,PalletSize,128
+80011,ProductStatusCD,ACT
+80011,ProductTypeCD,REGULAR
+80012,AvgDemand_day,<10
+80012,AvgDemand_week,< 500 / Wk
+80012,CasePack,16
+80012,FillOunces,6.76
+80012,PalletSize,128
+80012,ProductStatusCD,NEW
+80012,ProductTypeCD,REGULAR
+80013,AvgDemand_day,15-25
+80013,AvgDemand_week,> 1000 / Wk
+80013,CasePack,16
+80013,FillOunces,6.76
+80013,PalletSize,128
+80013,ProductStatusCD,ACT
+80013,ProductTypeCD,REGULAR
+80014,AvgDemand_day,15-Oct
+80014,AvgDemand_week,> 1000 / Wk
+80014,CasePack,8
+80014,FillOunces,17
+80014,PalletSize,144
+80014,ProductStatusCD,ACT
+80014,ProductTypeCD,REGULAR
+80015,AvgDemand_day,15-25
+80015,AvgDemand_week,500-1000 / Wk
+80015,CasePack,16
+80015,FillOunces,5
+80015,PalletSize,128
+80015,ProductStatusCD,ACT
+80015,ProductTypeCD,REGULAR
+80016,AvgDemand_day,15-Oct
+80016,AvgDemand_week,500-1000 / Wk
+80016,CasePack,16
+80016,FillOunces,5
+80016,PalletSize,128
+80016,ProductStatusCD,ACT
+80016,ProductTypeCD,REGULAR
+80017,AvgDemand_day,<10
+80017,AvgDemand_week,> 1000 / Wk
+80017,CasePack,16
+80017,FillOunces,6.76
+80017,PalletSize,128
+80017,ProductStatusCD,ACT
+80017,ProductTypeCD,PROMO
+80018,AvgDemand_day,15-25
+80018,AvgDemand_week,500-1000 / Wk
+80018,CasePack,4
+80018,FillOunces,31
+80018,PalletSize,120
+80018,ProductStatusCD,ACT
+80018,ProductTypeCD,PROMO
+80019,AvgDemand_day,15-25
+80019,AvgDemand_week,> 1000 / Wk
+80019,CasePack,6
+80019,FillOunces,24
+80019,PalletSize,144
+80019,ProductStatusCD,ACT
+80019,ProductTypeCD,REGULAR
+80020,AvgDemand_day,15-25
+80020,AvgDemand_week,500-1000 / Wk
+80020,CasePack,16
+80020,FillOunces,5
+80020,PalletSize,128
+80020,ProductStatusCD,ACT
+80020,ProductTypeCD,REGULAR
+80021,AvgDemand_day,<10
+80021,AvgDemand_week,> 1000 / Wk
+80021,CasePack,16
+80021,FillOunces,5
+80021,PalletSize,128
+80021,ProductStatusCD,NEW
+80021,ProductTypeCD,REGULAR
+80022,AvgDemand_day,<10
+80022,AvgDemand_week,> 1000 / Wk
+80022,CasePack,4
+80022,FillOunces,31
+80022,PalletSize,120
+80022,ProductStatusCD,OBS
+80022,ProductTypeCD,REGULAR
+80023,AvgDemand_day,15-Oct
+80023,AvgDemand_week,> 1000 / Wk
+80023,CasePack,16
+80023,FillOunces,5
+80023,PalletSize,128
+80023,ProductStatusCD,ACT
+80023,ProductTypeCD,REGULAR
+80024,AvgDemand_day,<10
+80024,AvgDemand_week,> 1000 / Wk
+80024,CasePack,16
+80024,FillOunces,6.76
+80024,PalletSize,128
+80024,ProductStatusCD,ACT
+80024,ProductTypeCD,REGULAR
+80025,AvgDemand_day,15-25
+80025,AvgDemand_week,> 1000 / Wk
+80025,CasePack,8
+80025,FillOunces,17
+80025,PalletSize,144
+80025,ProductStatusCD,ACT
+80025,ProductTypeCD,REGULAR
+80026,AvgDemand_day,15-25
+80026,AvgDemand_week,500-1000 / Wk
+80026,CasePack,16
+80026,FillOunces,3.33
+80026,PalletSize,128
+80026,ProductStatusCD,NEW
+80026,ProductTypeCD,REGULAR
+80027,AvgDemand_day,15-25
+80027,AvgDemand_week,< 500 / Wk
+80027,CasePack,8
+80027,FillOunces,17
+80027,PalletSize,144
+80027,ProductStatusCD,ACT
+80027,ProductTypeCD,REGULAR
+80028,AvgDemand_day,<10
+80028,AvgDemand_week,500-1000 / Wk
+80028,CasePack,8
+80028,FillOunces,17
+80028,PalletSize,144
+80028,ProductStatusCD,NEW
+80028,ProductTypeCD,REGULAR
+80029,AvgDemand_day,>25
+80029,AvgDemand_week,500-1000 / Wk
+80029,CasePack,16
+80029,FillOunces,6.75
+80029,PalletSize,128
+80029,ProductStatusCD,ACT
+80029,ProductTypeCD,REGULAR
+80030,AvgDemand_day,15-Oct
+80030,AvgDemand_week,< 500 / Wk
+80030,CasePack,16
+80030,FillOunces,6.76
+80030,PalletSize,128
+80030,ProductStatusCD,ACT
+80030,ProductTypeCD,REGULAR
+80031,AvgDemand_day,<10
+80031,AvgDemand_week,> 1000 / Wk
+80031,CasePack,16
+80031,FillOunces,5
+80031,PalletSize,128
+80031,ProductStatusCD,ACT
+80031,ProductTypeCD,PROMO
+80032,AvgDemand_day,<10
+80032,AvgDemand_week,> 1000 / Wk
+80032,CasePack,16
+80032,FillOunces,3.33
+80032,PalletSize,128
+80032,ProductStatusCD,ACT
+80032,ProductTypeCD,REGULAR
+80033,AvgDemand_day,15-25
+80033,AvgDemand_week,500-1000 / Wk
+80033,CasePack,4
+80033,FillOunces,31
+80033,PalletSize,120
+80033,ProductStatusCD,NEW
+80033,ProductTypeCD,REGULAR
+80034,AvgDemand_day,15-Oct
+80034,AvgDemand_week,> 1000 / Wk
+80034,CasePack,12
+80034,FillOunces,12
+80034,PalletSize,144
+80034,ProductStatusCD,ACT
+80034,ProductTypeCD,REGULAR
+80035,AvgDemand_day,15-Oct
+80035,AvgDemand_week,> 1000 / Wk
+80035,CasePack,16
+80035,FillOunces,3.33
+80035,PalletSize,128
+80035,ProductStatusCD,ACT
+80035,ProductTypeCD,REGULAR
+80036,AvgDemand_day,<10
+80036,AvgDemand_week,> 1000 / Wk
+80036,CasePack,16
+80036,FillOunces,5
+80036,PalletSize,128
+80036,ProductStatusCD,ACT
+80036,ProductTypeCD,REGULAR
+80037,AvgDemand_day,15-25
+80037,AvgDemand_week,< 500 / Wk
+80037,CasePack,8
+80037,FillOunces,17
+80037,PalletSize,144
+80037,ProductStatusCD,ACT
+80037,ProductTypeCD,REGULAR
+80038,AvgDemand_day,15-25
+80038,AvgDemand_week,> 1000 / Wk
+80038,CasePack,16
+80038,FillOunces,6.76
+80038,PalletSize,128
+80038,ProductStatusCD,ACT
+80038,ProductTypeCD,REGULAR
+80039,AvgDemand_day,15-25
+80039,AvgDemand_week,> 1000 / Wk
+80039,CasePack,16
+80039,FillOunces,5
+80039,PalletSize,128
+80039,ProductStatusCD,ACT
+80039,ProductTypeCD,REGULAR
+80040,AvgDemand_day,15-25
+80040,AvgDemand_week,> 1000 / Wk
+80040,CasePack,8
+80040,FillOunces,17
+80040,PalletSize,144
+80040,ProductStatusCD,ACT
+80040,ProductTypeCD,REGULAR
+80041,AvgDemand_day,>25
+80041,AvgDemand_week,500-1000 / Wk
+80041,CasePack,8
+80041,FillOunces,17
+80041,PalletSize,144
+80041,ProductStatusCD,ACT
+80041,ProductTypeCD,REGULAR
+80042,AvgDemand_day,15-Oct
+80042,AvgDemand_week,> 1000 / Wk
+80042,CasePack,16
+80042,FillOunces,5
+80042,PalletSize,128
+80042,ProductStatusCD,ACT
+80042,ProductTypeCD,REGULAR
+80043,AvgDemand_day,<10
+80043,AvgDemand_week,> 1000 / Wk
+80043,CasePack,16
+80043,FillOunces,6.76
+80043,PalletSize,128
+80043,ProductStatusCD,NEW
+80043,ProductTypeCD,REGULAR
+80044,AvgDemand_day,<10
+80044,AvgDemand_week,500-1000 / Wk
+80044,CasePack,8
+80044,FillOunces,17
+80044,PalletSize,144
+80044,ProductStatusCD,NEW
+80044,ProductTypeCD,REGULAR
+80045,AvgDemand_day,15-25
+80045,AvgDemand_week,500-1000 / Wk
+80045,CasePack,16
+80045,FillOunces,9.46
+80045,PalletSize,128
+80045,ProductStatusCD,ACT
+80045,ProductTypeCD,REGULAR
+80046,AvgDemand_day,15-25
+80046,AvgDemand_week,500-1000 / Wk
+80046,CasePack,16
+80046,FillOunces,8
+80046,PalletSize,128
+80046,ProductStatusCD,ACT
+80046,ProductTypeCD,REGULAR
+80047,AvgDemand_day,>25
+80047,AvgDemand_week,500-1000 / Wk
+80047,CasePack,14
+80047,FillOunces,10.1
+80047,PalletSize,140
+80047,ProductStatusCD,ACT
+80047,ProductTypeCD,REGULAR
+80048,AvgDemand_day,<10
+80048,AvgDemand_week,500-1000 / Wk
+80048,CasePack,16
+80048,FillOunces,3.3
+80048,PalletSize,128
+80048,ProductStatusCD,NEW
+80048,ProductTypeCD,REGULAR
+80049,AvgDemand_day,<10
+80049,AvgDemand_week,> 1000 / Wk
+80049,CasePack,16
+80049,FillOunces,5
+80049,PalletSize,128
+80049,ProductStatusCD,ACT
+80049,ProductTypeCD,REGULAR
+80050,AvgDemand_day,>25
+80050,AvgDemand_week,< 500 / Wk
+80050,CasePack,16
+80050,FillOunces,3.33
+80050,PalletSize,128
+80050,ProductStatusCD,ACT
+80050,ProductTypeCD,REGULAR
+80051,AvgDemand_day,<10
+80051,AvgDemand_week,500-1000 / Wk
+80051,CasePack,8
+80051,FillOunces,17
+80051,PalletSize,144
+80051,ProductStatusCD,NEW
+80051,ProductTypeCD,REGULAR
+80052,AvgDemand_day,<10
+80052,AvgDemand_week,> 1000 / Wk
+80052,CasePack,8
+80052,FillOunces,17
+80052,PalletSize,144
+80052,ProductStatusCD,NEW
+80052,ProductTypeCD,REGULAR
+80053,AvgDemand_day,<10
+80053,AvgDemand_week,> 1000 / Wk
+80053,CasePack,16
+80053,FillOunces,6.76
+80053,PalletSize,128
+80053,ProductStatusCD,ACT
+80053,ProductTypeCD,REGULAR
+80054,AvgDemand_day,15-25
+80054,AvgDemand_week,> 1000 / Wk
+80054,CasePack,12
+80054,FillOunces,12
+80054,PalletSize,144
+80054,ProductStatusCD,ACT
+80054,ProductTypeCD,REGULAR
+80055,AvgDemand_day,<10
+80055,AvgDemand_week,> 1000 / Wk
+80055,CasePack,16
+80055,FillOunces,6.76
+80055,PalletSize,128
+80055,ProductStatusCD,ACT
+80055,ProductTypeCD,REGULAR
+80056,AvgDemand_day,<10
+80056,AvgDemand_week,> 1000 / Wk
+80056,CasePack,8
+80056,FillOunces,17
+80056,PalletSize,144
+80056,ProductStatusCD,OBS
+80056,ProductTypeCD,REGULAR
+80057,AvgDemand_day,15-25
+80057,AvgDemand_week,< 500 / Wk
+80057,CasePack,8
+80057,FillOunces,17
+80057,PalletSize,144
+80057,ProductStatusCD,ACT
+80057,ProductTypeCD,REGULAR
+80058,AvgDemand_day,<10
+80058,AvgDemand_week,> 1000 / Wk
+80058,CasePack,16
+80058,FillOunces,6.76
+80058,PalletSize,128
+80058,ProductStatusCD,ACT
+80058,ProductTypeCD,REGULAR
+80059,AvgDemand_day,15-Oct
+80059,AvgDemand_week,> 1000 / Wk
+80059,CasePack,16
+80059,FillOunces,5
+80059,PalletSize,128
+80059,ProductStatusCD,ACT
+80059,ProductTypeCD,REGULAR
+80060,AvgDemand_day,<10
+80060,AvgDemand_week,500-1000 / Wk
+80060,CasePack,8
+80060,FillOunces,17
+80060,PalletSize,144
+80060,ProductStatusCD,OBS
+80060,ProductTypeCD,REGULAR
+80061,AvgDemand_day,<10
+80061,AvgDemand_week,500-1000 / Wk
+80061,CasePack,16
+80061,FillOunces,5
+80061,PalletSize,128
+80061,ProductStatusCD,NEW
+80061,ProductTypeCD,REGULAR
+80062,AvgDemand_day,<10
+80062,AvgDemand_week,> 1000 / Wk
+80062,CasePack,16
+80062,FillOunces,6.76
+80062,PalletSize,128
+80062,ProductStatusCD,NEW
+80062,ProductTypeCD,REGULAR
+80063,AvgDemand_day,<10
+80063,AvgDemand_week,< 500 / Wk
+80063,CasePack,16
+80063,FillOunces,3.33
+80063,PalletSize,128
+80063,ProductStatusCD,NEW
+80063,ProductTypeCD,REGULAR
+80064,AvgDemand_day,>25
+80064,AvgDemand_week,500-1000 / Wk
+80064,CasePack,16
+80064,FillOunces,6.75
+80064,PalletSize,128
+80064,ProductStatusCD,ACT
+80064,ProductTypeCD,REGULAR
+80065,AvgDemand_day,15-Oct
+80065,AvgDemand_week,> 1000 / Wk
+80065,CasePack,16
+80065,FillOunces,6.76
+80065,PalletSize,128
+80065,ProductStatusCD,ACT
+80065,ProductTypeCD,REGULAR
+80066,AvgDemand_day,15-25
+80066,AvgDemand_week,> 1000 / Wk
+80066,CasePack,12
+80066,FillOunces,12
+80066,PalletSize,144
+80066,ProductStatusCD,ACT
+80066,ProductTypeCD,REGULAR
+80067,AvgDemand_day,15-Oct
+80067,AvgDemand_week,< 500 / Wk
+80067,CasePack,16
+80067,FillOunces,6.76
+80067,PalletSize,128
+80067,ProductStatusCD,ACT
+80067,ProductTypeCD,REGULAR
+80068,AvgDemand_day,<10
+80068,AvgDemand_week,> 1000 / Wk
+80068,CasePack,16
+80068,FillOunces,6.76
+80068,PalletSize,128
+80068,ProductStatusCD,OBS
+80068,ProductTypeCD,REGULAR
+80069,AvgDemand_day,15-25
+80069,AvgDemand_week,< 500 / Wk
+80069,CasePack,8
+80069,FillOunces,17
+80069,PalletSize,144
+80069,ProductStatusCD,ACT
+80069,ProductTypeCD,REGULAR
+80070,AvgDemand_day,15-Oct
+80070,AvgDemand_week,> 1000 / Wk
+80070,CasePack,16
+80070,FillOunces,6.76
+80070,PalletSize,128
+80070,ProductStatusCD,ACT
+80070,ProductTypeCD,REGULAR
+80071,AvgDemand_day,15-25
+80071,AvgDemand_week,> 1000 / Wk
+80071,CasePack,16
+80071,FillOunces,5
+80071,PalletSize,128
+80071,ProductStatusCD,ACT
+80071,ProductTypeCD,REGULAR
+80072,AvgDemand_day,15-Oct
+80072,AvgDemand_week,> 1000 / Wk
+80072,CasePack,8
+80072,FillOunces,17
+80072,PalletSize,144
+80072,ProductStatusCD,ACT
+80072,ProductTypeCD,REGULAR
+80073,AvgDemand_day,15-Oct
+80073,AvgDemand_week,> 1000 / Wk
+80073,CasePack,8
+80073,FillOunces,17
+80073,PalletSize,144
+80073,ProductStatusCD,ACT
+80073,ProductTypeCD,REGULAR
+80074,AvgDemand_day,15-25
+80074,AvgDemand_week,< 500 / Wk
+80074,CasePack,16
+80074,FillOunces,6.76
+80074,PalletSize,128
+80074,ProductStatusCD,ACT
+80074,ProductTypeCD,REGULAR
+80075,AvgDemand_day,15-Oct
+80075,AvgDemand_week,> 1000 / Wk
+80075,CasePack,16
+80075,FillOunces,3.33
+80075,PalletSize,128
+80075,ProductStatusCD,ACT
+80075,ProductTypeCD,REGULAR
+80076,AvgDemand_day,15-Oct
+80076,AvgDemand_week,< 500 / Wk
+80076,CasePack,16
+80076,FillOunces,5
+80076,PalletSize,128
+80076,ProductStatusCD,ACT
+80076,ProductTypeCD,REGULAR
+80077,AvgDemand_day,15-Oct
+80077,AvgDemand_week,> 1000 / Wk
+80077,CasePack,16
+80077,FillOunces,5
+80077,PalletSize,128
+80077,ProductStatusCD,ACT
+80077,ProductTypeCD,REGULAR
+80078,AvgDemand_day,15-Oct
+80078,AvgDemand_week,> 1000 / Wk
+80078,CasePack,8
+80078,FillOunces,17
+80078,PalletSize,144
+80078,ProductStatusCD,ACT
+80078,ProductTypeCD,REGULAR
+80079,AvgDemand_day,15-Oct
+80079,AvgDemand_week,500-1000 / Wk
+80079,CasePack,16
+80079,FillOunces,5
+80079,PalletSize,128
+80079,ProductStatusCD,ACT
+80079,ProductTypeCD,REGULAR
+80080,AvgDemand_day,15-25
+80080,AvgDemand_week,< 500 / Wk
+80080,CasePack,16
+80080,FillOunces,5
+80080,PalletSize,128
+80080,ProductStatusCD,ACT
+80080,ProductTypeCD,REGULAR
+80081,AvgDemand_day,<10
+80081,AvgDemand_week,> 1000 / Wk
+80081,CasePack,16
+80081,FillOunces,6.76
+80081,PalletSize,128
+80081,ProductStatusCD,ACT
+80081,ProductTypeCD,REGULAR
+80082,AvgDemand_day,15-Oct
+80082,AvgDemand_week,> 1000 / Wk
+80082,CasePack,16
+80082,FillOunces,6.76
+80082,PalletSize,128
+80082,ProductStatusCD,ACT
+80082,ProductTypeCD,REGULAR
+80083,AvgDemand_day,15-Oct
+80083,AvgDemand_week,> 1000 / Wk
+80083,CasePack,16
+80083,FillOunces,3.33
+80083,PalletSize,128
+80083,ProductStatusCD,ACT
+80083,ProductTypeCD,REGULAR

@@ -1,0 +1,312 @@
+1.	 Data quality: Step Description 
+This macro checks quality of data in DDS and creates a table with alerts about possible problems in the data.
+2.1.	Code Realization Requirements
+Use python
+
+3. Input Data
+3.1 IN_PRODUCT_ATTR
+DDS.IN_PRODUCT_ATTR
+Column Name	Description
+PRODUCT_ID	Product ID (the lowest level of the product hierarchy)
+PRODUCT_ATTR_NAME	Product attribute name
+PRODUCT_ATTR_VALUE	Product attribute value
+
+3.2 IN_LOCATION_ATTR
+DDS.IN_LOCATION_ATTR
+Column Name	Description
+LOCATION_ID	Location ID
+LOCATION_ATTR_NAME	Location attribute name
+LOCATION_ATTR_VALUE	Location attribute value
+
+3.3 IN_CUSTOMER_ATTR
+DDS.IN_CUSTOMER_ATTR
+Column Name	Description
+CUSTOMER_ID	Customer ID
+CUSTOMER_ATTR_NAME	Customer attribute name
+CUSTOMER_ATTR_VALUE	Customer attribute value
+
+3.4 IN_DISTR_CHANNEL_ATTR
+DDS.IN_DISTR_CHANNEL_ATTR
+Column Name	Description
+DISTR_CHANNEL_ID	Distribution channel  ID
+DISTR_CHANNEL_ATTR_NAME	Distribution channel attribute name
+DISTR_CHANNEL_ATTR_VALUE	Distribution channel attribute value
+
+3.5 PRODUCT LIFE-CYCLE
+
+PRODUCT LIFE-CYCLE
+Column Name	Description
+PRODUCT_ID	Product ID
+LOCATION_LVL_ID	Location hierarchy element ID
+CUSTOMER_LVL_ID	Customer hierarchy element ID
+DISTR_CHANNEL_LVL_ID	Distribution CHANNEL hierarchy element  ID
+PERIOD_START_DT	Period start date
+PERIOD_END_DT	Period end date
+PRODUCT_SUCCESSOR_ID	Successor Product ID
+RELATION_SHARE	Number
+PERIOD_TYPE	Active', 'Blocked', 'End-of-life'
+
+3.6 LOCATION LIFE-CYCLE
+
+LOCATION LIFE-CYCLE
+Column Name	Description
+LOCATION_ID	Location ID
+CUSTOMER_LVL_ID	Customer hierarchy element ID
+PRODUCT_LVL_ID	Product hierarchy element  ID
+DISTR_CHANNEL_LVL_ID	Distribution CHANNEL hierarchy element  ID
+PERIOD_START_DT	Period start date
+PERIOD_END_DT	Period end date
+LOCATION_SUCCESSOR_ID	Successor Location ID
+RELATION_SHARE	Number
+PERIOD_TYPE	Closure reason: 'reconstruction', 're-branding' etc.
+
+3.7 CUSTOMER LIFE-CYCLE
+
+CUSTOMER LIFE-CYCLE
+Column Name	Description
+CUSTOMER_ID	Customer ID
+LOCATION_LVL_ID	Location hierarchy element ID
+PRODUCT_LVL_ID	Product hierarchy element  ID
+DISTR_CHANNEL_LVL_ID	Distribution CHANNEL hierarchy element  ID
+PERIOD_START_DT	Period start date
+PERIOD_END_DT	Period end date
+CUSTOMER_SUCCESSOR_ID	Successor Customer ID
+RELATION_SHARE	Number
+PERIOD_TYPE	active, blocked, end-of-life
+
+3.8 IN_PRICE
+Information regarding planned price.
+DDS.IN_PRICE
+Column Name	Description
+PRODUCT_ID	Product ID (the lowest level of the product hierarchy)
+LOCATION_ID	Location ID
+CUSTOMER_ID 	Customer ID 
+DISTR_CHANNEL_ID 	Distribution Channel ID 
+PERIOD_START_DT	Period start date
+PERIOD_END_DT	Period end date
+PRICE	Price
+PRICE_TYPE	Only one of the following price types: 1 - regular, 2 - promotional, 3 - markdown, 4 - other
+
+3.9 IN_PROMO
+Promo history data containing the following fields is used as an input.
+DDS.IN_PROMO
+Column Name	Description
+PROMO_ID	Promo ID
+PRODUCT_ID	Product ID (the lowest level of the product hierarchy)
+LOCATION_ID	Location ID
+CUSTOMER_ID 	Customer ID 
+DISTR_CHANNEL_ID 	Distribution Channel ID 
+PERIOD_START_DT	Period start date
+PERIOD_END_DT	Period end date
+PROMO_PRICE	Promo price
+PROMO_TYPE	Promo type code
+PROMO_MECHANICS	Promo mechanics code (taken from the promo mechanics types table)
+3.10 SALES
+Sales information regarding the past till last known day of the history .
+DDS.IN_SALES
+Column Name	Description
+PRODUCT_ID	Product ID (the lowest level of the product hierarchy)
+LOCATION_ID	Location ID
+PERIOD_DT	Date of sales (calendar day)
+SALES_QTY	Total sales in units per day (w/o returns)
+3.11 STOCK
+Inventory history data containing the following fields is used as an input:
+DDS.IN_STOCK
+Column Name	Description
+PRODUCT_ID	Product ID (the lowest level of the product hierarchy)
+LOCATION_ID	Location ID
+PERIOD_START_DT	Date of sales (calendar day)
+STOCK_QTY	Stock qty
+3.12 SELL_IN
+Initial CPG sales history data 
+1.1	DDS.IN_SELL_IN
+1.2	Column Name	1.3	Description
+PRODUCT_ID	Product ID (the lowest level of the product hierarchy)
+LOCATION_ID	Location from ID
+CUSTOMER_ID	Customer ID
+DISTR_CHANNEL_ID	Distribution CHANNEL ID
+LOCATION_TO_ID	Location to Id
+PERIOD_DT	Date of SELL-IN (calendar day)
+ORDER_QTY	Total ORDER in units per day (w/o returns)
+ORDER_AMOUNT	Total ORDER revenue (with VAT) per day (w/o returns)
+SHIPMENTS_QTY	Total SHIPMENT in units per day (w/o returns)
+SHIPMENTS_AMOUNT	Total SHIPMENT revenue (with VAT) per day (w/o returns)
+INVOICE_QTY	Total INVOICE in units per day (w/o returns)
+INVOICE_AMOUNT	Total INVOICE revenue (with VAT) per day (w/o returns)
+RETURNS_QTY	Total returns in units per day
+RETURNS_AMOUNT	Total returns amount (with VAT) per day
+
+DDS.IN_SELL_OUT
+Column Name	Description
+PRODUCT_ID	Product ID (the lowest level of the product hierarchy)
+LOCATION_ID	Location from ID
+CUSTOMER_ID	Customer ID
+DISTR_CHANNEL_ID	Distribution CHANNEL ID
+LOCATION_TO_ID	Location to Id
+PERIOD_DT	Date of SELL-OUT (calendar day)
+ORDER_QTY	Total ORDER in units per day (w/o returns)
+ORDER_AMOUNT	Total ORDER revenue (with VAT) per day (w/o returns)
+SHIPMENTS_QTY	Total SHIPMENT in units per day (w/o returns)
+SHIPMENTS_AMOUNT	Total SHIPMENT revenue (with VAT) per day (w/o returns)
+INVOICE_QTY	Total INVOICE in units per day (w/o returns)
+INVOICE_AMOUNT	Total INVOICE revenue (with VAT) per day (w/o returns)
+RETURNS_QTY	Total returns in units per day
+RETURNS_AMOUNT	Total returns amount (with VAT) per day
+PROMO_FLG	Promo flag
+PROMO_ID	Promo ID
+COST	Unit cost
+
+3.14 PRODUCT
+3.15 LOCATION
+DDS.IN_PRODUCT
+Column Name	Description
+PRODUCT_LVL_ID1	Hierarchy level ID 1
+PRODUCT_LVL_ID2	Hierarchy level ID 2
+PRODUCT_LVL_ID3	Hierarchy level ID 3
+PRODUCT_LVL_ID4	Hierarchy level ID 4
+PRODUCT_LVL_ID5	Hierarchy level ID 5
+PRODUCT_LVL_ID6	Hierarchy level ID 6
+PRODUCT_LVL_ID7	Hierarchy level ID 7
+PRODUCT_ID	Product ID (the lowest level of the product hierarchy)
+3.16 CUSTOMER
+DDS.IN_LOCATION
+Column Name	Description
+LOCATION_LVL_ID1	Hierarchy level ID 1
+LOCATION_LVL_ID2	Hierarchy level ID 2
+LOCATION_LVL_ID3	Hierarchy level ID 3
+LOCATION_LVL_ID4	Hierarchy level ID 4
+LOCATION_LVL_ID5	Hierarchy level ID 5
+LOCATION_ID	Location ID
+3.17 DISTR_CHANNEL
+DDS.IN_CUSTOMER
+Column Name	Description
+CUSTOMER_LVL_ID1	Hierarchy level ID 1
+CUSTOMER_LVL_ID2	Hierarchy level ID 2
+CUSTOMER_LVL_ID3	Hierarchy level ID 3
+CUSTOMER_LVL_ID4	Hierarchy level ID 4
+CUSTOMER_LVL_ID5	Hierarchy level ID 5
+CUSTOMER_ID	Customer ID
+
+DDS.IN_DISTR_CHANNEL
+Column Name	Description
+DISTR_CHANNEL_LVL_ID1	Hierarchy level ID 1
+DISTR_CHANNEL_ID	Distribution CHANNEL ID
+3.18 ASSORT_MATRIX
+Assortment matrix Sales information regarding the past till last known day of the history.
+DDS.IN_ASSORT_MATRIX
+Column Name	Description
+LOCATION_ID	Location from ID
+PRODUCT_ID	Product ID (the lowest level of the product hierarchy)
+CUSTOMER_ID	Customer ID
+DISTR_CHANNEL_ID	Distribution CHANNEL ID
+START_DT	Assort Start date (e.g. sales for Retailer/ shipment for CPG /shelf life for Fashion)
+END_DT	Assort End date (e.g. sales for Retailer/ shipment for CPG /shelf life for Fashion)
+STATUS	Status (Active, No longer merchandised etc.)
+3.19 DQ_PARAMETERS
+
+CNTL.DQ_PARAMETERS
+Column Name	Description
+check_id	id of check
+check_name	name of check
+client	Name of client
+input_table	the table to which the check is applied
+var_name	Variable name for check
+var_value	Value of variable
+
+
+4. Algorithm Definition
+4.1 Check necessary tables in DDS
+Checking that DDS lib has all necessary tables. If the required table does not exist it is created.
+
+List of tables for check:
+
+•	IN_PRODUCT_ATTR
+•	IN_LOCATION_ATTR
+•	IN_CUSTOMER_ATTR
+•	IN_DISTR_CHANNEL_ATTR
+•	IN_PROMO_ATTR
+•	IN_CUSTOMER_LIFE
+•	IN_LOCATION_LIFE
+•	IN_PRODUCT_LIFE
+•	IN_SALES
+•	IN_STOCK
+•	IN_SELL_IN
+•	IN_SELL_OUT
+•	IN_PRODUCT
+•	IN_LOCATION
+•	IN_CUSTOMER
+•	IN_DISTR_CHANNEL
+
+4.2 Check quality of data
+At this step the necessary data quality checks are applied. The output table contains information about possible problems with the data.
+4.2.1 Check values range
+Сhecks that the column values are not greater than the specified value (for example, that the prices are not negative) 
+4.2.1.1 IN_PRICE
+Checking for negative prices in IN_PRICE table. Rows with negative values are written to the data_quality_output table.
+4.2.1.2 IN_PROMO
+Checking for negative prices in IN_PROMO table. Rows with negative values are written to the data_quality_output table.
+4.2.1.3 IN_SALES
+Checking for negative sales in IN_SALES table. Rows with negative values are written to the data_quality_output table.
+4.2.1.4 IN_SELLOUT
+Checking for negative sales in IN_SELLOUT table. Rows with negative values are written to the data_quality_output table.
+4.2.1.5 IN_SELL_IN
+Checking for negative sales in IN_SELL_IN table. Rows with negative values are written to the data_quality_output table.
+4.2.1.6 IN_STOCK
+Checking for negative stocks IN_STOCK table. Rows with negative values are written to the data_quality_output table.
+ 
+4.2.2 Check cross consistency
+Checks that there are no key fields in the first table that are missing in the second table.
+Checking each pair of tables:
+·	IN_SALES
+·	IN_STOCK
+·	IN_PRICE
+·	IN_PRODUCT
+·	IN_LOCATION
+·	IN_CUSTOMER
+·	IN_DISTR_CHANNEL
+ 
+4.2.2.1 Determine the intersection of the columns in two tables - name of key columns (product_id, location_id, customer_id, distr_channel_id) which exists in both tables
+ 
+4.2.2.2 Determine the set of column values that present in the first table and don’t exists in the second table
+ 
+4.2.2.3 Adding rows from 4.2.2.2 to the data_quality_output table.
+The original tables are not changed.
+ 
+4.2.3 Check time cross consistency
+Checks tables for time cross-consistency (i.e. finding prodict_id - location_id pairs that have been in the SALES table and not in the STOCK table for some period)
+·	Compare IN_SALES and IN_STOCK tables
+·	Compare IN_STOCK and IN_SALES tables
+·	Compare IN_STOCK and IN_ASSORT_MATRIX tables
+·	Compare IN_SALES and IN_ASSORT_MATRIX tables
+·	Compare IN_STOCK and IN_PRICE tables
+·	Compare IN_SALES and IN_PRICE tables
+ 
+4.2.3.1. Determine the intersection of the columns in two tables (product_id, location_id or product_id – location_id) and time column (period_dt or period_start_dt)
+4.2.3.2 Determine the set of column values (product_id – period_dt, location_id – period_dt, period_dt – location_id – product_id) which present in the first table and don’t present in the second table
+4.2.3.4 Determine the line that are in the first table and are not in the second in more than threshold share of lines. Threshold read from parameters (var_name for this check_id)
+4.2.3.4 Adding matching rows to the data_qualuty_output table
+The original tables are not changed.
+ 
+ 
+ 
+ 
+ 
+4.3 Prepare output table
+Output table: data_quality_output
+					
+
+Column Name	Description
+PRODUCT_LVL_ID	Element id of product hierarchy 
+LOCATION_LVL_ID	Element id of location hierarchy 
+CUSTOMER_LVL_ID	Element id of customer hierarchy 
+DISTR_CHANNEL_LVL_ID	Element id of distr_channel hierarchy 
+PRODUCT_LVL	Level of product channel hierarchy
+LOCATION_LVL	Level of location channel hierarchy
+CUSTOMER_LVL	Level of customer channel hierarchy
+DISTR_CHANNEL_LVL	Level of distribution channel hierarchy
+PERIOD_DT	Start period of date in al_time_lvl format
+INPUT_COLUMN	Column for check in the input table
+INPUT_TABLE	Input table vor check
+INPUT_VALUE	Value parametr
+WARNING_TYPE	Warning type
+warning	Text of warning 
